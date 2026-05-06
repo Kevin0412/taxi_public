@@ -1,0 +1,37 @@
+# Data and generated artifacts
+kaggle_dl/
+data/porto_highways_bbox.osm.json
+output/
+report/
+
+# Python caches and environments
+__pycache__/
+.venv/
+.venv_task3/
+.torch_venv/
+*.py[cod]
+*.so
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+
+# Course deliverables and exports
+*.odt
+*.html
+*.doc
+*.docx
+*.pdf
+*.pptx
+*_模板版*
+*_初版*
+学号-姓名-*
+课程设计报告_模板版*
+课程研讨报告_模板*
+后续补数据说明*

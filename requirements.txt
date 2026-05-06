@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+python-docx
+pillow
+requests
+torch
