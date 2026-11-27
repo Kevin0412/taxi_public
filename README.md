@@ -4,6 +4,16 @@
 
 这是一个**代码仓库**。仓库中保留核心实验脚本，不包含原始数据、输出结果与报告产物。
 
+## Automatic rendering / 自动渲染
+
+[![Render gallery](https://github.com/Kevin0412/taxi_public/actions/workflows/render-gallery.yml/badge.svg)](https://github.com/Kevin0412/taxi_public/actions/workflows/render-gallery.yml)
+
+![Generated preview](docs/generated/preview.webp)
+
+Reproducible small synthetic-data run of the original duration prediction pipeline. These plots are smoke-test results, not measurements on Porto's real taxi dataset. Full sequence/OSM experiments are excluded.
+
+[Download workflow artifacts](https://github.com/Kevin0412/taxi_public/actions).
+
 ## 主要任务
 
 - 轨迹检索
@@ -90,13 +100,3 @@ python3 taxi_remaining_steps_compare.py --data kaggle_dl/train.csv
 ## 说明
 
 当前仓库保留课程实验脚本，便于复现实验与继续迭代。
-
-## Automatic rendering / 自动渲染
-
-[![Render gallery](https://github.com/Kevin0412/taxi_public/actions/workflows/render-gallery.yml/badge.svg)](https://github.com/Kevin0412/taxi_public/actions/workflows/render-gallery.yml)
-
-![Generated preview](docs/generated/preview.webp)
-
-Reproducible small synthetic-data run of the original duration prediction pipeline. These plots are smoke-test results, not measurements on Porto's real taxi dataset. Full sequence/OSM experiments are excluded.
-
-[Download workflow artifacts](https://github.com/Kevin0412/taxi_public/actions).
